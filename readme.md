@@ -1,6 +1,6 @@
-# mo445 first task
+# MO445 Task 2
 
-# to run
+# How to run
 docker run -it --rm \
   --env DISPLAY=$DISPLAY --env NUMIMAGES=1 --env NUMFILTERS=1 --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
   -v=$(pwd)/..:$(pwd)/.. -w=$(pwd) \
